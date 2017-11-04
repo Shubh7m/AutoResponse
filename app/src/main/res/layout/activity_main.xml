@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:background="@drawable/edit"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.sbm.shubhamchandrakar.autoresponse.MainActivity">
+
+    <Button
+        android:text="@string/st"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/switchclr"
+        android:id="@+id/service_btn" />
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:layout_weight="0.5"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn0"
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="0.5"
+            android:paddingBottom="30dp"
+            android:paddingTop="70dp"
+            android:text="@string/busy"
+            android:textAlignment="center"/>
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_margin="5dp"
+            android:paddingTop="65dp"
+            android:layout_weight="0.5"
+            android:text="@string/driving" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:layout_weight="0.5"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="0.5"
+            android:paddingBottom="30dp"
+            android:paddingTop="70dp"
+            android:text="@string/office"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_margin="5dp"
+            android:paddingTop="65dp"
+            android:layout_weight="0.5"
+            android:text="@string/sleeping" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:layout_weight="0.5"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="0.5"
+            android:paddingBottom="30dp"
+            android:paddingTop="70dp"
+            android:text="@string/school_college"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_margin="5dp"
+            android:paddingTop="65dp"
+            android:layout_weight="0.5"
+            android:text="@string/playing" />
+
+    </LinearLayout>
+
+
+
+    </LinearLayout>

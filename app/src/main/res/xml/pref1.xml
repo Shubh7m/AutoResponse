@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <CheckBoxPreference android:key="vibrate_on" android:title="Vibrate On" android:defaultValue="true"/>
+    <CheckBoxPreference android:key="show_msg" android:title="Show Message" android:defaultValue="true"/>
+    <CheckBoxPreference android:key="sim2" android:title="Use Sim 2"/>
+    <RingtonePreference
+
+        android:title="Ringtone preference"
+        android:key="ringtone_preference_1" />
+    <ListPreference
+        android:defaultValue="1"
+        android:title="List preference"
+        android:entries="@android:array/phoneTypes"
+        android:entryValues="@android:array/phoneTypes"
+        android:key="list_preference_1" />
+
+
+</PreferenceScreen>

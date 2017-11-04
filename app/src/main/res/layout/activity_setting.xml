@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/edit"
+    tools:context="com.sbm.shubhamchandrakar.autoresponse.SettingAct">
+
+  <!--  <Button
+        android:text="Salected Sim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:id="@+id/sim_btn"
+        android:background="@drawable/button_selector"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+-->
+    <Button
+        android:text="Preference"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/button_selector"
+        android:id="@+id/pref_btn"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <Switch
+        android:text="Repest Caller"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:id="@+id/switch1"
+        android:layout_below="@+id/pref_btn"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/switch1"
+        android:background="#EFEFEF"
+        android:textColor="#888888"
+        android:text="If the same person call second time within a 15 minute period, allow it. (Click hear for mor info)" />
+
+    <!--<NumberPicker-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/textView"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_marginTop="40dp"-->
+        <!--android:id="@+id/numberPicker" />-->
+
+
+</RelativeLayout>

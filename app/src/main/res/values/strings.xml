@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">AutoResponse</string>
+    <string-array name="prefrences">
+        <item>Only MyContact</item>
+        <item>Selected Numbers</item>
+        <item>All</item>
+        <item>Only Unknown</item>
+    </string-array>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Auto Response!</string>
+    <string name="slide_1_desc">This app response your calls without any human interference</string>
+
+    <string name="slide_2_title">When Reciving a call</string>
+    <string name="slide_2_desc">If you not able to pick call than this app response your call...!</string>
+
+    <string name="slide_3_title">Salect Preference</string>
+    <string name="slide_3_desc">Application is working on the basis of preference salection like Only MyContact</string>
+
+    <string name="slide_4_title">Special Feature!</string>
+    <string name="slide_4_desc">When same caller call again and again than you will get a notification</string>
+
+    <string name="seach_in_contect">Seach in contect</string>
+    <string name="button">Add to List</string>
+    <string name="st">St</string>
+    <string name="busy">Busy</string>
+    <string name="driving">Driving</string>
+    <string name="office">Office</string>
+    <string name="playing">Playing</string>
+    <string name="sleeping">Sleeping</string>
+    <string name="school_college">School/College</string>
+</resources>
